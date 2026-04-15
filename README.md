@@ -1,6 +1,6 @@
 
 
-## 📌 Project Overview
+ Project Overview
 
 This project demonstrates a complete **DevOps pipeline** using modern tools and practices. It covers:
 
@@ -10,7 +10,7 @@ This project demonstrates a complete **DevOps pipeline** using modern tools and 
 * Monitoring using Prometheus and Grafana
 * Automated build and deployment using Jenkins
 
-## 🛠️ Tech Stack
+Tech Stack
 
 * Git & GitHub
 * Jenkins
@@ -113,7 +113,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 
+                git https://github.com/suba-1994/React-Application/tree/main/build
             }
         }
 
@@ -158,7 +158,7 @@ cd node_exporter-1.8.1.linux-amd64
 Access:
 
 ```
-http://<>:9100/metrics
+http://54.215.250.241:9100/metrics
 ```
 
 ---
